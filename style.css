@@ -1,0 +1,400 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+body {
+    background: linear-gradient(to right, #ff7e5f, #feb47b, #86a8e7, #7f7fd5);
+}
+    
+/* header section header and nav content page */
+
+.head{
+    margin-left: 20px;
+    margin-top: 20px;
+    font-size: xx-large;
+    text-transform:uppercase;
+    align-items: center;
+    text-align: center;
+    color: rgb(253, 100, 146);
+
+}
+.sidepanel {
+    width: 0;
+    position: fixed;
+    text-transform: capitalize;
+    margin-right: 900px;
+    z-index: 1;
+    height: 80%;
+    top: 0;
+    left: 0;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+}
+.sidepanel a{
+    text-decoration: none;
+    margin-inline:22px ;
+    font-size: 31px;
+    color: white;
+    text-transform:capitalize;
+    font-weight: bolder;
+    display: flex;
+    margin: 20px;
+}
+  
+p{
+    font-style: oblique;
+}
+  
+.sidepanel a:hover {
+    color: #0336ff;
+}
+  
+.sidepanel .closebtn {
+    font-size: 40px;
+    text-transform: capitalize;
+    margin: 10px;
+    justify-content: center;
+}
+  
+.openbtn{
+    font-size: 30px;
+    cursor: pointer;
+    background-color: #111;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    width: 220px;
+    margin-right: 400px;
+  }
+  
+  .openbtn:hover {
+    background-color:#0418fc;
+  }
+
+nav{
+    position: fixed;
+    background-color: #0336ff;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    top: 0%;
+    width: 100%;
+    height: 80px;
+    color: rgb(251, 163, 163);
+    z-index: 2;
+    
+}
+#fakeheader{
+    width: 100%;
+    height: 65px;
+}
+#navlink{
+    margin: 0px;
+    margin-right: 100px;
+    color: #111;
+}
+#navlink a{
+    margin-left: 50px;
+    text-transform: capitalize;
+    color: #f8fc07;
+    font-size:xx-large;
+    text-decoration: none;
+}
+.logo{
+    font-size:25px;
+    color: rgb(247, 227, 8);
+}
+ul{
+    display: flex;
+}
+ul li {
+    list-style:none;
+
+}
+
+/* this content and atribute for home section index page  */
+
+.main{
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+.main img{
+    width:650px;
+    height: 650px;
+    margin: 10px;
+   
+}
+.maineText{
+    margin-top: 65px;
+}
+.mainText h1{
+    font-size: 60px;
+}
+.mainText p{
+    font-size: 30px ;
+    margin-top: 32px;
+
+}
+.mainText button {
+    width: 400px;
+    height:60px ;
+    background-color:rgb(245, 5, 65) ;
+    color: white;
+    border: none;
+    margin-top: 42px;
+    font-size: 30px;
+}
+
+/* this con tent and atribute for our plan age */
+
+.plans{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:center;
+}
+
+.planCard{
+    
+    width: 350px;
+    padding: 32px;
+    text-align: center;
+    box-shadow:  1px 3px 3px 3px rgb(218, 216, 216);
+    border-radius: 3px;
+    margin-inline: 20px;
+}
+.planCard p{
+    font-size: x-large;
+    margin-top:32px;
+    color: #0b0b0b;
+   
+
+}
+.planCard button{
+    margin-top: 32px;
+    width: 150px;
+    height: 40px;
+    background-color: rgb(139, 10, 32);
+    color: white;
+   
+    border-radius: 20px;
+    font-size: 25px;
+    border: none;
+   
+   
+}
+.planCard h2{
+    text-transform: uppercase;
+    padding: 25px;
+    background-color: rgb(8, 8, 66);
+    color: rgb(249, 224, 4);
+}
+.planCard p:hover{
+    font-size:xx-large;
+    color: #fbce04;
+}
+
+/* this is for ourr gym bmi tracker tracker page  */
+
+.tracker{
+    margin: 50px auto;
+    padding: 30px;
+    background: #f4f686;
+    border-radius: 10px;
+    width: 60%;
+    font-size: xx-large;
+    color: #551111;
+    max-width:65%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+input, button {
+    padding: 10px;
+    margin: 10px 0;
+    width: 100%;
+    font-size: 16px;
+}
+button {
+    background-color: #0984e3;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+button:hover {
+    background-color: #74b9ff;
+}
+
+/* this is for our team members page  */
+
+.member{
+    width: 100%;
+    height: 550px;
+    position: relative;
+    margin: auto;
+    display: flex;
+   
+}
+.team{
+    font-size: larger;
+    width: 100%;
+    position: absolute;
+    margin: auto;
+    text-align: center;
+    transition: all is ease;
+}
+.team img{
+    margin: 30px;
+    width: 600px;
+    height: 500px;
+    border: #111 solid;
+    border-radius: 20px;
+    margin-inline: 20px;
+    text-align: center;
+   
+}
+.goal{
+    text-align: center;
+    font-size: larger;
+    color: #072bfb;
+}
+.goal p,h1{
+    font-size:larger;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+/* this is for lofin page */
+
+
+.connect{
+    background-image: url(https://www.oldschoollabs.com/wp-content/uploads/2019/05/5.jpg);
+    width: 700px;
+    height: 500px;
+    padding: 5px;
+    border-radius: 5px;
+    text-align:center ;
+    background-color: rgb(3, 3, 42);
+    margin: auto;
+}
+#connect{
+    height: 90px;
+    width: 200px;
+    background-color: #0984e3;
+}
+#connect:hover{
+    background-color: #9ed2f9;
+}
+#account{
+    color: #1605fe;
+    margin: 10px;
+    font-weight: bold;
+    font-size: xx-large;
+}
+.connect input{
+    width: 90%;
+    height: 22px;
+    padding: 11px;
+    border:none;
+    font: size 18px;
+    margin-top: 22px;
+}
+.connect button{
+    width: 120px;
+    height: 35px;
+    background-color: rgb(158, 14, 38);
+    color: white;
+    font-size: 20px;
+    border: none;
+    margin-top: 22px;
+}
+
+/* this is for our ragister page */
+
+
+.ragister{
+    margin-top: 0%;
+    border: #111 solid 4px;
+    width: 50vw;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-transform: capitalize;
+    margin-left: 500px;
+    color: #0c0c0c;
+}
+.ragister input,select{
+    text-transform: capitalize;
+    margin-right: 100vw;
+    width: 550px;
+    height: 38px;
+    font-size: larger;
+    color: #090909;
+}
+label{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: x-large;
+    font-weight: bold;
+}
+
+footer{
+    height: 550px;
+    width: 100%;
+    background-image: url(https://png.pngtree.com/background/20230827/original/pngtree-dark-fitness-room-with-training-equipment-and-black-dumbbells-on-the-picture-image_4839864.jpg);
+    background-color: #1b1616;
+    color: white;
+}
+
+.footer{
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
+}
+.text h2{
+    font-size: 30px;
+    margin-top: 15px;
+    margin-bottom: 5px;
+    color: #74b9ff;
+    text-transform: uppercase;
+}
+.text p{
+    margin-top: 20px;
+    font-size:x-large;
+    text-transform: capitalize;
+
+    
+}
+
+
+
+
+@media screen and (max-width:00px) {
+    .main{
+        text-align: center;
+        display: block;
+        background-color: aqua;
+    }
+
+ @media screen and(max-width:500px) { 
+    ul{
+        display:block;
+    }   
+    
+}
+@media screen and(max-width:510px) {
+    .member{
+        width: 99%;
+    }
+    .slider img{
+        width: 90px;
+        height: 120px;
+        margin-inline:2px ;
+    }
+    .connect{
+        width: 80%;
+    }
+    .main h1{
+        font-size: 33%;
+    }
+    .main p{
+        font-size: 14px;
+    }
+} } 
