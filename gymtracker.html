@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>gym tracker</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div data-include ="header.html"></div>
+    </header>
+        <div class="head">
+            <h1> Gym tracker</h1>
+        </div>
+    <div id="gymtracker" class="tracker">
+        <h3>BMI Calculator</h3>
+        <input type="number" id="weight" placeholder="Enter your weight (kg)" />
+        <input type="number" id="height" placeholder="Enter your height (Me)" />
+        <button onclick="calculateBMI()">Calculate BMI</button>
+        <p id="bmiResult"></p>
+    </div>
+    <div class="tracker">
+        <h3>Workout Tracker</h3>
+        <input type="text" id="workout" placeholder="Add a workout" />
+        <button onclick="addWorkout()">Add Workout</button>
+        <ul id="workoutList"></ul>
+    </div>
+</body>
+<script src="script.js"></script>
+</html>
